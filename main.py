@@ -2,7 +2,6 @@ import requests as req
 import socket
 import logging
 import time
-from datetime import datetime
 
 logging.basicConfig(
     filename='status_site.log',
