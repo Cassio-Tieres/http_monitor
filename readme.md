@@ -26,4 +26,4 @@ Digite o link do site https://
 Escreva o nome do site, sem utilizar o "https://".
 Ex: google.com.br
 
-Após isso, o código irá verificar o status HTTP a cada 3 segundos, retornando um erro, caso o código HTTP seja diferente de 200.
+Após isso, o código irá verificar o status HTTP a cada 3 segundos e registrando o retorno da requisição no arquivo status_site.log, retornando um erro, caso o código HTTP seja diferente de 200.
